@@ -10,17 +10,16 @@ Es necesario:
 
 ### Creación de un virtualenv
 
-#### Instalación de virtualenv
-http://rukbottoland.com/blog/tutorial-de-python-virtualenv/
+Instalación de virtualenv: http://rukbottoland.com/blog/tutorial-de-python-virtualenv/
 
-#### Usando virtualenv
+Para crear el virtualenv hay dos opciones, usar directamente virtualenv:
 
 ```
 virtualenv fizzbuzz
 source fizzbuzz/bin/activate
 ```
 
-#### Usando virtualenvwrapper (mkvirtualenv)
+o usar virtualenvwrapper (mkvirtualenv):
 
 ```
 mkvirtualenv fizzbuzz
