@@ -1,4 +1,5 @@
 # PyConEs 2016: Taller introducción a TDD
+<img src="https://pbs.twimg.com/profile_images/743356612086116355/6X4srwCV.jpg" width="250" alt="Logo PyConEs2016 Almería" />
 
 ## Preparación del entorno
 
