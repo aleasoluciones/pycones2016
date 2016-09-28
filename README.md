@@ -12,18 +12,19 @@ Es necesario:
 
 Instalación de virtualenv: http://rukbottoland.com/blog/tutorial-de-python-virtualenv/
 
-Para crear el virtualenv hay dos opciones, usar directamente virtualenv:
+Para crear el virtualenv hay dos opciones:
 
-```
-virtualenv fizzbuzz
-source fizzbuzz/bin/activate
-```
+1. Usar directamente virtualenv:
 
-o usar virtualenvwrapper (mkvirtualenv):
+  ```
+  virtualenv fizzbuzz
+  source fizzbuzz/bin/activate
+  ```
+2. O usar virtualenvwrapper (mkvirtualenv):
 
-```
-mkvirtualenv fizzbuzz
-```
+  ```
+  mkvirtualenv fizzbuzz
+  ```
 
 ### Instalar los requisitos
 `pip install -r requirements-dev.txt`
