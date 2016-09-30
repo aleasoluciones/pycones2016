@@ -21,10 +21,16 @@ Para crear el virtualenv hay dos opciones:
   virtualenv fizzbuzz
   source fizzbuzz/bin/activate
   ```
-2. O usar virtualenvwrapper (mkvirtualenv):
+2. Usar virtualenvwrapper (mkvirtualenv):
 
   ```
   mkvirtualenv fizzbuzz
+  ```
+
+  Si ya lo hemos creado usando `mkvirtualenv` con anterioridad, lo podemos activar de nuevo con:
+
+  ```
+  workon fizzbuzz
   ```
 
 ### Instalar los requisitos
