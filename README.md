@@ -13,9 +13,16 @@ Tras el taller, también se facilitarán los slides de la presentación.
 
 Es necesario:
 
+* Git
 * Python >= 2.7
 * Virtualenv
 * Tu editor favorito (vim)
+
+### Clonar repositorio
+
+```
+git clone https://github.com/aleasoluciones/pycones2016.git
+```
 
 ### Creación de un virtualenv
 
