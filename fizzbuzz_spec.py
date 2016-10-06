@@ -8,4 +8,8 @@ from fizzbuzz import fizzbuzz
 with describe('Fizzbuzz'):
     with context('when running the test'):
         with it('says hello'):
-            expect('hello').to(equal('hello'))
+            name = 'Foo'
+            
+            result = say_hello(name)
+            
+            expect(result).to(equal('Hello Foo'))
