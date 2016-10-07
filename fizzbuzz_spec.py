@@ -1,13 +1,20 @@
 # -*- coding: utf-8 -*-
 
 from expects import *
+from fizzbuzz import *
 
-
+results = {
+    1: 1,
+    2: 2,
+    3: "Fizz",
+    5: "Buzz",
+   15: "FizzBuzz",
+}
+ 
 with describe('Fizzbuzz'):
-    with context('when saying hello to Foo'):
-        with it('says Hello to Foo'):
-            name = 'Foo'
+    with context('when saying calling fizzbuzz'):
+        with it('returns list of results'):
+            result = fizzbuzz()
             
-            result = say_hello(name)
-            
-            expect(result).to(equal('Hello Foo'))
+            for counter, expected in results.items():
+                expect(result[counter-1]).to(equal(expected))
