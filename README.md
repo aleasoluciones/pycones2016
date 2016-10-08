@@ -55,3 +55,9 @@ Para crear el virtualenv hay dos opciones:
 Para verificar que todo está correctamente instalado y funcionando, ejecutar los tests:
 
 `mamba --format=documentation fizzbuzz_spec.py`
+
+## Soluciones
+* https://github.com/jaimegildesagredo/fizzbuzz
+* https://github.com/APA42/fizzbuzzkata
+* https://github.com/islomar/katas/tree/master/fizzbuzz/python
+
