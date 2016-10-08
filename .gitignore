@@ -90,3 +90,6 @@ ENV/
 
 # vim
 .*.sw[po]
+
+# PyCharm
+.idea
